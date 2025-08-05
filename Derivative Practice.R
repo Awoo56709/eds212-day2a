@@ -4,6 +4,8 @@
 
 #................Practice using the function D().................
 
+# one small change
+
 my_expression <- expression(5 * x^2)
 my_derivative <- D(expr = my_expression, name = "x")
 
